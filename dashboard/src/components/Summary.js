@@ -1,7 +1,7 @@
 import React, { useState, useEffect, useContext } from "react";
 import axios from "axios";
 import { holdings } from "../data/data";
-import { TrendingUp, AccountBalanceWallet, PieChart } from "@mui/icons-material";
+import { AccountBalanceWallet, PieChart } from "@mui/icons-material";
 import GeneralContext from "./GeneralContext";
 
 const Summary = () => {

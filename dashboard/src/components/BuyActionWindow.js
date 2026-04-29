@@ -1,5 +1,4 @@
-import React, { useState, useContext, useEffect } from "react";
-import { Link } from "react-router-dom";
+import React, { useState, useContext } from "react";
 
 import axios from "axios";
 import confetti from "canvas-confetti";
