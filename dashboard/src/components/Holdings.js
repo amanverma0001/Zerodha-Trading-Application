@@ -22,7 +22,7 @@ const Holdings = () => {
   const { stocks, lastUpdated } = useContext(GeneralContext);
 
   useEffect(() => {
-    axios.get("http://localhost:3002/allHoldings")
+    axios.get("https://zerodha-backend-5f55.onrender.com/allHoldings")
       .then((res) => {
         if (res.data && res.data.length > 0) setBaseHoldings(res.data);
       })

@@ -31,7 +31,7 @@ const BuyActionWindow = ({ uid, price }) => {
     localStorage.setItem("localOrders", JSON.stringify([newOrder, ...savedOrders]));
 
     axios
-      .post("http://localhost:3002/newOrder", newOrder)
+      .post("https://zerodha-backend-5f55.onrender.com/newOrder", newOrder)
       .then(() => {
         // Trigger Confetti Celebration!
         confetti({

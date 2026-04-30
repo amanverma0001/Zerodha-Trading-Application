@@ -11,7 +11,7 @@ const Summary = () => {
 
   useEffect(() => {
     // Load holdings
-    axios.get("http://localhost:3002/allHoldings")
+    axios.get("https://zerodha-backend-5f55.onrender.com/allHoldings")
       .then((res) => {
         setAllHoldings(res.data);
       })
