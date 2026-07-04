@@ -89,3 +89,5 @@ Ensure you have a `.env` file in the `backend` directory containing your `MONGO_
 * **Financial Education:** Learning how stock markets and brokerages operate.
 * **Paper Trading:** Practicing trading strategies without risking real money.
 * **React Architecture:** Serving as a complex template for managing global states, rapid re-renders, and full-stack integration.
+
+<!-- update_zerodha 1 -->
