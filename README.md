@@ -135,3 +135,5 @@ Ensure you have a `.env` file in the `backend` directory containing your `MONGO_
 <!-- update_zerodha 22 -->
 
 <!-- update_zerodha 23 -->
+
+<!-- update_zerodha 24 -->
